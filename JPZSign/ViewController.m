@@ -35,6 +35,10 @@
     self.signImgView.backgroundColor = [UIColor lightGrayColor];
     
     //////据说 reset可以放弃本地全部修改
+    
+    NSString *str=@"再次测试提交记录";
+    
+    NSLog(@"%@",str);
 }
 
 - (void)toSignMethod {
