@@ -33,6 +33,8 @@
     self.signImgView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 300, 200, 100)];
     [self.view addSubview:self.signImgView];
     self.signImgView.backgroundColor = [UIColor lightGrayColor];
+    
+    //////据说 reset可以放弃本地全部修改
 }
 
 - (void)toSignMethod {
